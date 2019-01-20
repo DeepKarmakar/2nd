@@ -1,0 +1,21 @@
+[
+    {
+        "students": [
+            { 
+                "name": "deep",
+                "age": 26,
+                "gender": "M"
+            },
+            { 
+                "name": "Piu",
+                "age": 27,
+                "gender": "F"
+            },
+            { 
+                "name": "kishore",
+                "age": 26,
+                "gender": "M"
+            }
+        ]
+    }
+]
