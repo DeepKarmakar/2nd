@@ -1,0 +1,47 @@
+body > div {
+    width: 250px;
+}
+a {
+    font-family: arial, helvetica;
+    font-size: 14px;
+    text-decoration: none;
+    color: #444;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+li a {
+    display: block;
+    position: relative;
+    padding: 6px 12px;
+}
+
+ul ul > li > a {
+    padding-left: 24px;
+}
+
+li > a::before {
+    content: "⇩";
+    text-align: center;
+    width: 20px;
+    margin-right: 5px;
+}
+li > a:only-child::before {
+    content: "";
+}
+
+li > ul {
+    display: none;
+    margin-left: 10px;
+}
+li.open > ul {
+    display: block;
+}
+li.open > a::before {
+    content: "⇧";
+}

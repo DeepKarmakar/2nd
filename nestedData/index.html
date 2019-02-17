@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body ng-app="nestedData">
+        <div ng-controller="nestedDataCtrl">
+            <ul>
+                <li ng-repeat="folder in folders" folder></li>
+            </ul>
+
+            <!-- using ng-include -->
+            <!--             
+                <ul>
+                    <li ng-repeat="item in items" ng-include="'folderTree'"></li>
+                </ul>
+
+                <script type="text/ng-template" id="folderTree">
+                    {{item.name}}
+                    <ul ng-if="item.inner">
+                        <li
+                            ng-repeat="item in item.inner"
+                            ng-include="'folderTree'"></li>
+                    </ul>
+                </script> 
+            -->
+        </div>
+        <script src="jquery-1.11.0.min.js"></script>
+        <script src="angular.js"></script>
+        <script src="app.js"></script>
+        <script src="custom-script.js"></script>
+    </body>
+</html>

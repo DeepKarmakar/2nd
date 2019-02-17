@@ -1,0 +1,51 @@
+{
+    "folders": [
+        {
+            "name": "folder1",
+            "inner": [
+                {
+                    "name": "folder1 - 1"
+                },
+                {
+                    "name": "folder1 - 2",
+                    "inner": [
+                        {
+                            "name": "folder1 - 2 - 1"
+                        },
+                        {
+                            "name": "folder1 - 2 - 2",
+                            "inner": [
+                                {
+                                    "name": "folder1 - 2 - 2 - 1"
+                                },
+                                {
+                                    "name": "folder1 - 2 - 2 - 2"
+                                },
+                                {
+                                    "name": "folder1 - 2 - 2 - 3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "folder2",
+            "inner": [
+                {
+                    "name": "folder2 - 1"
+                },
+                {
+                    "name": "folder2 - 2"
+                },
+                {
+                    "name": "folder2 - 3"
+                }
+            ]
+        },
+        {
+            "name": "folder3"
+        }
+    ]
+}
